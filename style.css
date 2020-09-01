@@ -24,6 +24,7 @@ html{overflow-x: hidden;}
 .navbar .navbar-nav .nav-item .btn-danger{background-color: #c92f2f; color: #fff!important; transition: .3s all ease-in-out; padding: 10px 40px;}
 .navbar .navbar-nav .nav-item .btn-danger:hover{background-color: #232323; color: #fff!important;}
 .navbar .navbar-nav .nav-item .nav-link:hover{color: #c92f2f;}
+nav.fixed-top{background-color: #fff!important; padding: 10px 100px;}
 
 /* Slider */
 #slider .img-wrapper .slide-one{background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.7)) ,url('imgs/1.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; width: 100%; height: 100vh;}
@@ -174,6 +175,7 @@ html{overflow-x: hidden;}
     #latestSermon .text-area p {font-size: 14px; margin-right: 0;}
     #eventslider .img-wrapper{box-shadow: none;}
     #eventslider .btn-area a{font-size: 14px; font-weight: 400; padding: 5px 15px;} 
+    #contact .col-lg-4 input{width: 200px; display: block; padding: 4px 20px; margin-bottom: 20px;}
 }
 
 @media screen and (max-width: 770px){
@@ -263,3 +265,46 @@ html{overflow-x: hidden;}
     
 
 }
+
+
+/* ABOUT PAGE */
+#about{padding: 100px 0;}
+#about .text-area {padding: 10px 50px;}
+#about .text-area h4{color: #1f1f2c; margin-bottom: 12px; font-size: 30px; font-weight: 700;}
+#about .text-area .left-side{float: left;}
+#about .text-area .left-side h6{font-size: 16px; margin-bottom: 20px; font-weight: 600;}
+#about .text-area .left-side p{font-size: 14px; font-weight: 400;}
+#about .text-area .right-side h6{font-size: 16px; margin-bottom: 20px; font-weight: 600;}
+#about .text-area .right-side p{font-size: 14px; font-weight: 400;}
+#about .text-area .right-side{float: right;}  
+#about .text-area p{color: #636363; margin-bottom: 26px; font-size: 16px; font-weight: 400; line-height: 22px;}
+#about .img-wrapper img{box-shadow: 5px 1px 20px #c2c2c2;}
+
+/* whyus */
+#whyus{padding: 100px 0; background-color: #f3f3f3;}
+#whyus .col-md-12 h1{font-weight: 700; color: #1f1f2c;}
+#whyus .col-md-12 p{margin-bottom: 50px; color: #636366;}
+#whyus .col-md-4 .fa{font-size: 1.7em; background-color: #c92f2f; color: #fff; width: 50px; height: 50px; padding: 10px 0; border-radius: 50%; margin-bottom: 30px;}
+#whyus .col-md-4 h6{font-size: 20px; font-weight: 500;}
+
+/* END ABOUT PAGE */
+
+
+
+
+
+
+/* *******
+
+contact page
+
+****** */
+
+#contact{padding: 100px 0;}
+#contact .col-md-12 h1{color: #1f1f2c;font-weight: 700; margin-bottom: 10px; font-size: 30px;}
+#contact .col-md-12 p{color: #666666;font-weight: 400; margin-bottom: 50px; font-size: 16px;}
+#contact .col-lg-4 h6{text-align: left;}
+#contact .col-lg-4 input{width: 350px; display: block; padding: 4px 20px; margin-bottom: 20px;}
+#contact .col-md-12 h6{text-align: left;}
+#contact .col-md-12 textarea{display: block; width: 100%; resize: none; padding: 4px 20px; margin-bottom: 40px;}
+#contact .col-md-12 .btn{display: block; height: 50px; padding: 10px 0 0 0;}
